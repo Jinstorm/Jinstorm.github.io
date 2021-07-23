@@ -47,7 +47,7 @@
 <meta property="og:image" content="https://jinstorm.github.io/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-15.png">
 <meta property="og:image" content="https://jinstorm.github.io/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-16.png">
 <meta property="article:published_time" content="2021-07-22T09:39:35.000Z">
-<meta property="article:modified_time" content="2021-07-22T12:53:17.636Z">
+<meta property="article:modified_time" content="2021-07-23T04:58:37.260Z">
 <meta property="article:author" content="Jin storm">
 <meta property="article:tag" content="搭建个人博客">
 <meta name="twitter:card" content="summary">
@@ -207,10 +207,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">Posted on</span>
-              
 
-              <time title="Created: 2021-07-22 17:39:35 / Modified: 20:53:17" itemprop="dateCreated datePublished" datetime="2021-07-22T17:39:35+08:00">2021-07-22</time>
+              <time title="Created: 2021-07-22 17:39:35" itemprop="dateCreated datePublished" datetime="2021-07-22T17:39:35+08:00">2021-07-22</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2021-07-23 12:58:37" itemprop="dateModified" datetime="2021-07-23T12:58:37+08:00">2021-07-23</time>
+              </span>
 
           
             <span class="post-meta-item" title="Views" id="busuanzi_container_page_pv" style="display: none;">
@@ -305,12 +311,12 @@
 <figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate //简写为 hexo g</span><br><span class="line">hexo server //简写为 hexo s</span><br></pre></td></tr></tbody></table></figure>
 
 <p>然后浏览器中打开<a target="_blank" rel="noopener" href="http://localhost:4000/">网址</a> <code>http://localhost:4000/</code>，就可以看到我们的博客啦，不要乱按<code>ctrl+c</code> <span class="github-emoji"><span>😏</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>~，本地原始效果如下：</p>
-<img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-2.png" class="" title="Localhost">
+<img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-2.png" class="">
 
 <p>按<code>ctrl+c</code>关闭本地服务器。</p>
 <h3 id="4-Github-创建个人仓库"><a href="#4-Github-创建个人仓库" class="headerlink" title="4. Github 创建个人仓库"></a>4. <strong>Github</strong> 创建个人仓库</h3><hr>
 <p>打开 <a target="_blank" rel="noopener" href="https://github.com/">Github</a>，新建一个项目仓库<code>New repository</code>，如下所示：</p>
-<img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-3.png" class="" title="all">
+<img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-3.png" class="">
 
 <p>输入自己的项目名称 <code>repository-name</code>，最好为用户名<code>username</code>加<code>.github.io</code>后缀，即<code>username.github.io</code>，且<code>README</code>初始化也要勾上。比如我的就是<code>Jinstorm.github.io</code>，这样部署之后<code>https://repository-name/</code>就是你的博客地址，比如我的就是 <a href="https://jinstorm.github.io/%E3%80%82">https://Jinstorm.github.io/。</a><br>否则的话，通过<code>https://username.github.io/repository-name</code> 访问也可。</p>
 <h3 id="5-生成-SSH-添加到-Github"><a href="#5-生成-SSH-添加到-Github" class="headerlink" title="5. 生成 SSH 添加到 Github"></a>5. 生成 <strong>SSH</strong> 添加到 <strong>Github</strong></h3><hr>
