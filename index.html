@@ -244,7 +244,7 @@
 <div style="width:60%;margin:auto"><img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-1.png" class=""></div>
 
 <p><strong>Linux：</strong><br>最早的 <strong>Git</strong> 就是在 <strong>Linux</strong> 上编写的，只需：</p>
-<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install git</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="ZSH"><figure class="iseeu highlight /zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install git</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>安装完成后在命令提示符中输入<code>git --version</code>来查看一下版本验证是否安装成功。</p>
 <h3 id="2-Node-的下载安装"><a href="#2-Node-的下载安装" class="headerlink" title="2. Node 的下载安装"></a>2. <strong>Node</strong> 的下载安装</h3><p><strong>Hexo</strong> 是基于 <strong>node.js</strong> 编写的，所以需要安装一下 <strong>node.js</strong> 和里面的 <strong>npm</strong> 工具。</p>
@@ -254,15 +254,15 @@
 <p>比如我的博客文件都存放在<code>C:\Users\username\MyBlog\</code>目录下。</p>
 <p>在该目录下右键点击<code>Git Bash Here</code>，打开 <strong>Git</strong> 的控制台窗口，以后我们所有的操作都在 <strong>Git</strong> 控制台进行，就不用<strong>windows</strong> 自带的 <strong>cmd</strong> 了。</p>
 <p>定位到该目录下，输入<code>npm install hexo-cli -g</code>安装 <strong>Hexo</strong>。可能会有几个报错，无视它就行。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>安装完后输入<code>hexo -v</code>验证是否安装成功。</p>
 <p>至此 <strong>Hexo</strong> 就安装完了。</p>
 <p>接下来初始化一下 <strong>Hexo</strong> ,即初始化我们的网站，输入<code>hexo init</code>初始化文件夹</p>
-<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init hexoblog</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="ZSH"><figure class="iseeu highlight /zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init hexoblog</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>这个<code>hexoblog</code>可以自己取什么名字都行，然后，接着输入<code>npm install</code>来安装必备的组件。</p>
-<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ./hexoblog      //进入这个hexoblog文件夹</span><br><span class="line">npm install</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="ZSH"><figure class="iseeu highlight /zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ./hexoblog      //进入这个hexoblog文件夹</span><br><span class="line">npm install</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>初始化完成后，博客文件夹<code>hexoblog</code>目录下有：</p>
 <ul>
@@ -274,7 +274,7 @@
 <li><code>_config.yml</code> 博客的配置文件</li>
 </ul>
 <p>这样本地的网站配置也弄好啦，输入<code>hexo g</code>生成静态网页，然后输入<code>hexo s</code>打开本地服务器，</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate //简写为 hexo g</span><br><span class="line">hexo server //简写为 hexo s</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate //简写为 hexo g</span><br><span class="line">hexo server //简写为 hexo s</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>然后浏览器中打开<a target="_blank" rel="noopener" href="http://localhost:4000/">网址</a> <code>http://localhost:4000/</code>，就可以看到我们的博客啦，不要乱按<code>ctrl+c</code> <span class="github-emoji"><span>😏</span><img src="https://github.githubassets.com/images/icons/emoji/unicode/1f60f.png?v8" aria-hidden="true" onerror="this.parent.classList.add('github-emoji-fallback')"></span>~，本地原始效果如下：</p>
 <div style="width:80%;margin:auto"><img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-2.png" class=""></div>
@@ -286,24 +286,24 @@
 <p>输入自己的项目名称 <code>repository-name</code>，最好为用户名<code>username</code>加<code>.github.io</code>后缀，即<code>username.github.io</code>，且<code>README</code>初始化也要勾上。比如我的就是<code>Jinstorm.github.io</code>，这样部署之后<code>https://repository-name/</code>就是你的博客地址，比如我的就是 <a href="https://jinstorm.github.io/%E3%80%82">https://Jinstorm.github.io/。</a><br>否则的话，通过<code>https://username.github.io/repository-name</code> 访问也可。</p>
 <h3 id="5-生成-SSH-添加到-Github"><a href="#5-生成-SSH-添加到-Github" class="headerlink" title="5. 生成 SSH 添加到 Github"></a>5. 生成 <strong>SSH</strong> 添加到 <strong>Github</strong></h3><p>生成<code>SSH</code>添加到 <strong>Github</strong>，连接 <strong>Github</strong> 与本地。</p>
 <p>右键 <code>git bash here</code>，然后输入下面指令：</p>
-<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="ZSH"><figure class="iseeu highlight /zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"yourname"</span></span><br><span class="line">git config --global user.email <span class="string">"youremail"</span></span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>这里的<code>yourname</code>输入你的 <strong>Github</strong> 用户名，<code>youremail</code>输入你 <strong>Github</strong> 的邮箱。这样 <strong>Github</strong> 才能知道你是不是对应它的账户。例如我的：</p>
-<figure class="highlight zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"Jinstorm"</span></span><br><span class="line">git config --global user.email <span class="string">"snowstorm.xjtu.edu.cn"</span></span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="ZSH"><figure class="iseeu highlight /zsh"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --global user.name <span class="string">"Jinstorm"</span></span><br><span class="line">git config --global user.email <span class="string">"snowstorm.xjtu.edu.cn"</span></span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>可以用以下两条，检查一下你有没有输对</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config user.name</span><br><span class="line">git config user.email</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>接着就是创建 <strong>SSH</strong>：</p>
 <blockquote>
 <p>SSH：安全外壳协议，最初是UNIX系统上的一个程序，后来又迅速扩展到其他操作平台。简单来说，SSH就是一个密钥对，公钥和私钥，公钥是用于数据加密的，私钥是用于解密公钥加密的数据的。<br>这里 id_rsa 是私钥，不能随便给别人看的；id_rsa.pub 是公钥，是可以给别人看的。把这个公钥放在 Github 上，这样当公钥和私钥相互匹配的时候，才能通过 git 操作你的博客。</p>
 </blockquote>
 <p>生成 <strong>SSH</strong> 公钥：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail"</span></span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C <span class="string">"youremail"</span></span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>生成的中间步骤一直回车即可，都可以是默认的。</p>
 <p>此时已经生成了<code>.ssh</code>的文件夹，可以通过文件资源管理器或者如下指令找到：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cat ~/.ssh/id_rsa.pub</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p><code>cat</code>是 <strong>Linux</strong> 指令（英文全拼：concatenate），用于连接文件并打印到标准输出设备上，这里就是打印到你的 bash 终端上。</p>
 <p>将输出的内容全部复制。</p>
@@ -315,14 +315,14 @@
 
 <h3 id="6-将-Hexo-部署到-Github"><a href="#6-将-Hexo-部署到-Github" class="headerlink" title="6. 将 Hexo 部署到 Github"></a>6. 将 <strong>Hexo</strong> 部署到 <strong>Github</strong></h3><p>接下来就是将 <strong>Hexo</strong> 生成的文章部署到 <strong>Github</strong> 上。打开博客根目录下的<code>_config.yml</code>文件，这是博客的配置文件，在这里你可以修改与博客配置相关的各种信息。</p>
 <p>修改最后一行的配置：</p>
-<figure class="highlight yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://github.com/Jinstorm/Jinstorm.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="YML"><figure class="iseeu highlight /yml"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repository:</span> <span class="string">https://github.com/Jinstorm/Jinstorm.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">master</span></span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>将<code>repository</code>修改为你自己的 <strong>Github</strong> 项目地址即可，就是部署时告诉工具，将生成网页通过 git 方式上传到你对应的仓库中。</p>
 <p>这个时候需要先安装部署的命令<code>hexo-deployer-git</code>，这样你才能用命令部署到 <strong>Github</strong>。</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>然后运行以下指令：（三个常用指令）</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>其中 <code>hexo clean</code>清除了你之前生成的东西。 <code>hexo generate</code>顾名思义，生成静态文章，可以用 <code>hexo g</code>缩写 ，<code>hexo deploy</code>部署文章，可以用<code>hexo d</code>缩写。</p>
 <p>第一次部署到 <strong>Github</strong> 时可能需要输入你的 <strong>Github</strong> 的 username 和 password 来确保连接到你的 Github 账户。部署成功之后，就可以在<code>https://username.github.io/</code>看到你的博客了！</p>
@@ -393,7 +393,7 @@
 <h4 id="将-SSH-添加到-Github"><a href="#将-SSH-添加到-Github" class="headerlink" title="将 SSH 添加到 Github"></a>将 <strong>SSH</strong> 添加到 <strong>Github</strong></h4><p>此步骤同前</p>
 <p>点击右上角头像——个人账户设置——SSH公钥——新增公钥<br>复制之前<code>id_rsa.pub</code>的内容粘贴即可，公钥有效期根据需求选择，默认三个月，永久也可。</p>
 <p>完成后在 bash 命令行测试，</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@e.coding.net</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh -T git@e.coding.net</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>出现如下反馈表示配置完成：</p>
 <div style="width:75%;margin:auto"><img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-11.PNG" class=""></div>
@@ -405,7 +405,7 @@
 <div style="width:80%;margin:auto"><img src="/2021/07/22/Hexo-Github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2%E8%AE%B0%E5%BD%95/image-13.PNG" class=""></div>
 
 <p>同样步骤：</p>
-<figure class="highlight bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></tbody></table></figure>
+<div class="highlight-wrap"autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" contenteditable="true"data-rel="BASH"><figure class="iseeu highlight /bash"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo clean</span><br><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></tbody></table></figure></div>
 
 <p>点击仓库，注意是 <strong>master</strong> 分支，就能看到最新上传的代码文件了。</p>
 <h4 id="网站托管"><a href="#网站托管" class="headerlink" title="网站托管"></a>网站托管</h4><p>持续部署——网站托管</p>
