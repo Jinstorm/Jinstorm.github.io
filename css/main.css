@@ -382,12 +382,12 @@ td {
 .highlight-wrap[data-rel] {
   position: relative;
   overflow: hidden;
-  border-radius: 5px;
-  box-shadow: 0 10px 30px 0px rgba(0,0,0,0.4);
-/*box-shadow:18px 18px 15px 0px rgba(0,0,0,.4);*/
-  margin: 5px 0;
-  margin-top: 10px;
-  margin-bottom: 5px;
+  border-radius: 3px;
+/*box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);*/
+  box-shadow: 18px 18px 15px 0px rgba(0,0,0,0.4);
+  margin: 0px 0;
+/*margin-top: 10px;*/
+/*margin-bottom: 5px;*/
 }
 .highlight-wrap[data-rel] ::-webkit-scrollbar {
   height: 10px;
@@ -1218,7 +1218,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #82a4a8;
+  background: #66ffd5;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
