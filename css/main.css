@@ -386,7 +386,7 @@ td {
 /*box-shadow: 0 10px 30px 0px rgba(0, 0, 0, 0.4);*/
   box-shadow: 18px 18px 15px 0px rgba(0,0,0,0.4);
   margin: 0px 0;
-/*margin-top: 10px;*/
+  margin-top: 20px;
 /*margin-bottom: 5px;*/
 }
 .highlight-wrap[data-rel] ::-webkit-scrollbar {
@@ -409,7 +409,7 @@ td {
   color: #fff;
   font-size: 16px;
   position: absolute;
-  top: 0;
+  top: 10px;
   left: 0;
   width: 100%;
   font-family: 'Source Sans Pro', sans-serif;
@@ -1017,7 +1017,7 @@ pre .javascript .function {
 }
 .site-meta {
   flex-grow: 1;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .site-meta {
@@ -1218,7 +1218,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #79ffdd;
+  background: #e0ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2226,7 +2226,7 @@ hr {
   padding: 10px 0;
 }
 .footer-inner {
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .footer-inner {
@@ -2332,7 +2332,7 @@ hr {
 }
 .posts-expand.index .post-title,
 .posts-expand.index .post-meta {
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 767px) {
   .posts-expand.index .post-title,
