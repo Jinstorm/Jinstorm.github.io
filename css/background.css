@@ -106,7 +106,7 @@
     /* background: var(--content-bg-color); */
     border-radius: initial;
     box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
-    padding: 30px 20px 200px 30px;    /* 上右下左 */
+    padding: 30px 20px 20px 30px;    /* 上右下左 */
     background: rgba(255,255,255,0.75);    /* 增加透明度 */
 }
 /* 文章字体设为高级的灰色 */
