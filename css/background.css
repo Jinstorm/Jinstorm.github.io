@@ -32,40 +32,6 @@
     height: 15px;
 }
 
-
-
-/* 标题样式 */
-.posts-expand .post-title-link {
-	/* 设置字体颜色 */
-	color: #9370DB;
-}
-/* 文章版块样式 */
-.post-block {
-    /* background: var(--content-bg-color); */
-    border-radius: initial;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
-    padding: 30px 20px 200px 30px;    /* 上右下左 */
-    background: rgba(255,255,255,0.75);    /* 增加透明度 */
-}
-/* 文章字体设为高级的灰色 */
-.post-body {
-  color: #333;
-}
-/* 下划线美化 */
-hr {
-  background-color: #86dca3;
-}
-/* 文章分类页面中,标签的颜色属性 */
-.category-list a{
-  color: #6f42c1;
-}
-/* 光标放到文章列表上面的时候,会变成彩色 */
-.posts-expand .post-title-link::before {
-  background-image: linear-gradient(90deg,#a166ab 0,#ef4e7b 25%,#f37055 50%,#ef4e7b 75%,#a166ab 100%);
-}
-
-
-
 /* 页脚footer */
 /* 渐变色滚动动画 */
 @-webkit-keyframes Gradient {
@@ -126,3 +92,39 @@ hr {
 #footer:before {
     background-color: rgba(0, 0, 0, 0);
 }
+
+
+
+
+/* 标题样式 */
+.posts-expand .post-title-link {
+	/* 设置字体颜色 */
+	color: #9370DB;
+}
+/* 文章版块样式 */
+.post-block {
+    /* background: var(--content-bg-color); */
+    border-radius: initial;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.06), 0 1px 5px 0 rgba(0,0,0,0.12);
+    padding: 30px 20px 200px 30px;    /* 上右下左 */
+    background: rgba(255,255,255,0.75);    /* 增加透明度 */
+}
+/* 文章字体设为高级的灰色 */
+.post-body {
+  color: #333;
+}
+/* 下划线美化 */
+hr {
+  background-color: #86dca3;
+}
+/* 文章分类页面中,标签的颜色属性 */
+.category-list a{
+  color: #6f42c1;
+}
+/* 光标放到文章列表上面的时候,会变成彩色 */
+.posts-expand .post-title-link::before {
+  background-image: linear-gradient(90deg,#a166ab 0,#ef4e7b 25%,#f37055 50%,#ef4e7b 75%,#a166ab 100%);
+}
+
+
+
