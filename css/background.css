@@ -1,6 +1,6 @@
 #web_bg {
     /* 背景图像的地址（url括号里）  */
-    background: url(/img/background.jpg);
+    background: rgb(232,221,203);/*#CCD1D9;*//*url(/img/background.jpg);*/
     /* 背景图像不重复 */
     background-repeat: no-repeat;
     /* 设置背景图片不随页面滚动 */
