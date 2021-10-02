@@ -3291,7 +3291,7 @@ blockquote footer cite:before {
   text-align: center;
 }
 #footer-wrap a {
-  color: var(--light-grey);
+  color: var(#000);
 }
 #footer-wrap a:hover {
   text-decoration: underline;
