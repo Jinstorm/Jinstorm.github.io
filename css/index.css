@@ -2826,11 +2826,11 @@ blockquote footer cite:before {
   float: right;
   margin-right: -0.35rem;
   padding: 0.35rem;
-  -webkit-transition: -webkit-transform 0.3s;
-  -moz-transition: -moz-transform 0.3s;
-  -o-transition: -o-transform 0.3s;
-  -ms-transition: -ms-transform 0.3s;
-  transition: transform 0.3s;
+  -webkit-transition: -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -ms-transition: -ms-transform 0.2s;
+  transition: transform 0.2s;
   -webkit-transform: rotate(0);
   -moz-transform: rotate(0);
   -o-transform: rotate(0);
@@ -2895,19 +2895,11 @@ blockquote footer cite:before {
 #aside-content #card-toc .toc-content {
   overflow-y: auto;
   max-height: calc(100vh - 120px);
-}
-@media screen and (max-width: 900px) {
-  #aside-content #card-toc .toc-content {
-    max-height: calc(100vh - 140px);
-  }
+maxWidth1500()
 }
 #aside-content #card-toc .toc-content .toc-child {
   display: none;
-}
-@media screen and (max-width: 900px) {
-  #aside-content #card-toc .toc-content .toc-child {
-    display: block !important;
-  }
+maxWidth1500()
 }
 #aside-content #card-toc .toc-content .toc-item.active .toc-child {
   display: block;
