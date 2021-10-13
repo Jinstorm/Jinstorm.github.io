@@ -1,5 +1,5 @@
-// 首页去掉Banner图
-var full_page = document.getElementsByClassName("full_page");
-if (full_page.length != 0) {
-  full_page[0].style.background = "transparent";
-}
+// // 首页去掉Banner图
+// var full_page = document.getElementsByClassName("full_page");
+// if (full_page.length != 0) {
+//   full_page[0].style.background = "transparent";
+// }
